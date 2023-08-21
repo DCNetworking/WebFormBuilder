@@ -1,8 +1,8 @@
 namespace WebFormBuilder.Structure.Forms.Text;
 
-public sealed class TextForm : Form
+public class PasswordForm : Form
 {
-    public TextForm() : base(FormTypes.Text)
+    public PasswordForm() : base(FormTypes.Password)
     {
 
     }
@@ -13,4 +13,5 @@ public sealed class TextForm : Form
                $"<input type='{_formType.ToString().ToLower()}' name='{_name}' class='input input_formBuilder {_className}' id='{_id}' />" +
                $"</div>";
     }
+    
 }

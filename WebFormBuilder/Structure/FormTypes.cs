@@ -3,7 +3,7 @@ namespace WebFormBuilder.Structure;
 public enum FormTypes
 {
     Text,
-    Options,
+    Select,
     Checkbox,
     Checkboxes,
     Radio,
